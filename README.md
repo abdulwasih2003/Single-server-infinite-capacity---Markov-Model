@@ -1,29 +1,3 @@
-Exp.No : 04
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-Date : 26.04.2023
-<br>
-
 # Single server with infinite capacity (M/M/1):(oo/FIFO)
 ## Aim :
 To find 
@@ -56,10 +30,7 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 ![](3.png)
  
 ## Program:
-```python
-#developed by : Kaushika
-#reg no : 212221230048
-```
+
 ```python
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder(in secs):"))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
